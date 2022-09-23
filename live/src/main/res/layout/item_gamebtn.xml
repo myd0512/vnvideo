@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/rl_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:background="@color/transparent">
+    <FrameLayout
+        android:id="@+id/rl_container2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginBottom="4dp"
+        android:layout_above="@+id/rate">
+
+        <TextView
+            android:text="1"
+            android:id="@+id/rateV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/rate"
+            android:background="@drawable/game_touzi"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/rate"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:textSize="12sp"
+        android:layout_height="14dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        />
+</LinearLayout>

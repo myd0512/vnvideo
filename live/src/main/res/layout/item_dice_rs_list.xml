@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_height="40dp"/>
+    <TextView
+        android:id="@+id/title2"
+        android:textColor="#5B86F4"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/gray6"
+        android:layout_height="40dp"
+        android:text="@string/dicegame_rs_head_2"/>
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:text="@string/dicegame_rs_head_3"/>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_gravity="center"
+            android:background="@mipmap/delete_tuya"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beauty">beauty</string>
+    <string name="beauty_shape">beauty_shape</string>
+    <string name="meng">meng</string>
+    <string name="filter">filter</string>
+    <string name="shake">shake</string>
+    <string name="haha">haha</string>
+    <string name="haha_1">haha_1</string>
+    <string name="haha_4">haha_4</string>
+    <string name="haha_3">haha_3</string>
+    <string name="haha_2">haha_2</string>
+    <string name="beauty_meibai">beauty_meibai</string>
+    <string name="beauty_mopi">beauty_mopi</string>
+    <string name="beauty_baohe">beauty_baohe</string>
+    <string name="beauty_fengnen">beauty_fengnen</string>
+    <string name="beauty_hongrun">beauty_hongrun</string>
+    <string name="beauty_big_eye">beauty_big_eye</string>
+    <string name="beauty_face">beauty_face</string>
+    <string name="tiezhi_download_failed">tiezhi_download_failed</string>
+    <integer-array name="specially_yb_watermark_icon_list">
+        <item>@mipmap/beauty_distortion_none</item>
+        <item>@mipmap/icon_yb_watermark_1</item>
+        <item>@mipmap/icon_yb_watermark_2</item>
+        <item>@mipmap/icon_yb_watermark_3</item>
+        <item>@mipmap/icon_yb_watermark_4</item>
+    </integer-array>
+    <integer-array name="specially_yb_watermark_sel_list">
+        <item>@mipmap/beauty_distortion_none</item>
+        <item>@mipmap/icon_yb_watermark_sel_1</item>
+        <item>@mipmap/icon_yb_watermark_sel_2</item>
+        <item>@mipmap/icon_yb_watermark_sel_3</item>
+        <item>@mipmap/icon_yb_watermark_sel_4</item>
+    </integer-array>
+</resources>
