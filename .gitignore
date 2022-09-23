@@ -9,6 +9,7 @@
 *.class
 
 ._.*
+._*
 
 # Generated 文件夹
 bin/
