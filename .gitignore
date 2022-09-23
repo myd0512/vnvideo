@@ -8,6 +8,8 @@
 # Java class 文件
 *.class
 
+._.*
+
 # Generated 文件夹
 bin/
 gen/
